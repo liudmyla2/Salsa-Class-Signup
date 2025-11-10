@@ -1,121 +1,136 @@
 body {
-        background: linear-gradient(
-          68.6deg,
-          rgb(252, 165, 241) 1.8%,
-          rgb(181, 255, 255) 100.5%
-        );
-      }
+  background: linear-gradient(
+    68.6deg,
+    rgb(241, 113, 113) 1.8%,
+    rgb(172, 170, 170) 100.5%
+  );
+}
 
-      h1 {
-        text-align: center;
-      }
+h1 {
+  text-align: center;
+  color: rgb(151, 8, 8);
+}
 
-      h2 {
-        text-align: center;
-      }
+h2 {
+  text-align: center;
+}
 
-      img {
-        max-width: 100%;
-      }
+img {
+  max-width: 100%;
+}
 
-      p {
-        font-size: 18px;
-        line-height: 1.5;
-      }
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: rgb(146, 20, 20);
+}
 
-      button {
-        display: block;
-        margin: 0 auto;
-        border: 1px solid plum;
-        background: white;
-        font-size: 20px;
-        border-radius: 6px;
-        padding: 10px 15px;
-        transition: all 150ms ease-in-out;
-      }
+button {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid rgb(97, 39, 19);
+  background: rgb(166, 29, 29);
+  font-size: 20px;
+  border-radius: 6px;
+  padding: 10px 15px;
+  transition: all 150ms ease-in-out;
+  color: white;
+}
 
-      button:hover {
-        background: plum;
-        cursor: pointer;
-      }
-      .container {
-        max-width: 600px;
-        margin: 20px auto;
-        background: white;
-        padding: 20px;
-        border-radius: 10px;
-      }
+button:hover {
+  background: rgb(73, 31, 33);
+  cursor: pointer;
+}
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.6);
+}
 
-      footer {
-        text-align: center;
-        margin: 10px 0;
-        font-size: 18px;
-      }
+footer {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 18px;
+}
 
-      form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-  }
-  input, select, textarea {
-    padding: 12px;
-    border-radius: 10px;
-    border: 1px solid #ccc;
-    font-size: 14px;
+.form-container {
+  max-width: 600px;
+  margin: 20px auto 100px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.5);
+}
 
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 
-      .theme-button {
-        font-size: 10px;
-        background: black;
-        color: white;
-        padding: 5 8px;
-      }
+}
+input,
+select,
+textarea {
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
 
-      .theme-button:hover {
-        color: black;
-        background: white;
-      }
+.theme-button {
+  font-size: 10px;
+  background: black;
+  color: white;
+  padding: 5 8px;
+}
 
-      .salsa-intro-picture {
-        border-radius: 10px;
-        transition: all 150ms ease-in-out;
-      }
+.theme-button:hover {
+  color: black;
+  background: white;
+}
 
-      .salsa-intro-picture:hover {
-        filter: contrast(80%);
-        transform: scale(1.1);
-      }
+.salsa-intro-picture {
+  border-radius: 10px;
+  transition: all 150ms ease-in-out;
+}
 
-      .grid {
-        margin: 15px 0;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-gap: 20px;
-      }
+.salsa-intro-picture:hover {
+  filter: contrast(80%);
+  transform: scale(1.1);
+}
 
-      .grid img {
-        width: 100%;
-        border-radius: 8px;
-        transition: all 150ms ease-in-out;
-      }
+.grid {
+  margin: 15px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
 
-      .grid img:hover {
-        transform: scale(2);
-      }
+.grid img {
+  width: 100%;
+  border-radius: 8px;
+  transition: all 150ms ease-in-out;
+}
 
-      .dark {
-        background: linear-gradient(
-          112.1deg,
-          rgb(32, 38, 57) 11.4%,
-          rgb(63, 76, 119) 70.2%
-        );
-        color: white;
-      }
+.grid img:hover {
+  transform: scale(2);
+}
 
-      .dark .container {
-        background: rgba(255, 255, 255, 0.1);
-      }
+.dark {
+  background: linear-gradient(
+    112.1deg,
+    rgb(68, 4, 4) 11.4%,
+    rgb(19, 15, 15) 70.2%
+  );
+}
 
-      .dark a {
-        color: plum;
-      }
+.dark .container {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.dark a {
+  color: plum;
+}

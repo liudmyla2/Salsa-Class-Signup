@@ -6,11 +6,12 @@
     <title>Signup Form</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <div class="container">
-    <h1>Discover the Joy of Salsa!</h1>
+<body class="dark">
+    <button class="theme-button">Dark theme</button>
+    <div class="form-container">
+    <h1>💃Discover the Joy of Salsa!💃</h1>
     <p>Step onto the dance floor and let the rhythm take over! Join our beginner-friendly classes and start dancing today. Spots are limited — sign up now!</p>
-    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+    <form action="https://forms e.io/f/YOUR_FORM_ID" method="POST">
       <input type="text" name="name" placeholder="Full Name" required>
       <input type="email" name="_replyto" placeholder="Email Address" required>
       <input type="tel" name="phone" placeholder="Phone Number">
@@ -19,9 +20,16 @@
         <option value="morning">Morning</option>
         <option value="evening">Evening</option>
       </select>
+      <select name="experience_level" required>
+  <option value="">Select your experience level</option>
+  <option value="beginner">Beginner</option>
+  <option value="intermediate">Intermediate</option>
+  <option value="advanced">Advanced</option>
+</select>
       <textarea name="notes" rows="3" placeholder="Any notes or questions"></textarea>
       <button type="submit">Sign Up Now</button>
     </form>
   </div>
+  <script src="app.js"></script>
 </body>
 </html>
