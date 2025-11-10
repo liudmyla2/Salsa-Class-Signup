@@ -52,6 +52,18 @@ body {
         font-size: 18px;
       }
 
+      form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  input, select, textarea {
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+
+
       .theme-button {
         font-size: 10px;
         background: black;
