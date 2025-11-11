@@ -11,10 +11,6 @@ h1 {
   color: rgb(151, 8, 8);
 }
 
-h2 {
-  text-align: center;
-}
-
 img {
   max-width: 100%;
 }
@@ -139,12 +135,13 @@ textarea {
 }
 
 .dark a {
-  color: plum;
+  color:rgb(159, 61, 61)
 }
 
 .dark h1,
 .dark h2,
-.dark p {
+.dark p,
+.dark footer {
   color: rgb(219, 143, 143);
 }
 
