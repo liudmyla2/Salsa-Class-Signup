@@ -193,3 +193,13 @@ textarea {
   background: black;
   color: white;
 }
+
+.theme-button::before {
+  content: "Dark theme";
+}
+
+body.dark .theme-button::before {
+  content: "Light theme";
+}
+
+
