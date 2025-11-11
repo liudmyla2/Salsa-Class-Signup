@@ -12,3 +12,14 @@ function changeTheme() {
 
 let themeButton = document.querySelector(".theme-button");
 themeButton.addEventListener("click", changeTheme);
+
+const mainImage = document.querySelector(".salsa-intro-picture");
+const gridImages = document.querySelectorAll(".grid img");
+
+gridImages.forEach((img) => {
+  img.addEventListener("click", () => {
+    const temp = mainImage.src;
+    mainImage.src = img.src;
+    img.src = temp;
+  });
+});
