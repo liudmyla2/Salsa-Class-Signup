@@ -69,7 +69,6 @@ form {
   display: flex;
   flex-direction: column;
   gap: 15px;
-
 }
 input,
 select,
@@ -81,15 +80,16 @@ textarea {
 }
 
 .theme-button {
-  font-size: 10px;
+  font-size: 15px;
   background: black;
   color: white;
-  padding: 5 8px;
+  padding: 5 px;
 }
 
 .theme-button:hover {
   color: black;
   background: white;
+  cursor: pointer;
 }
 
 .salsa-intro-picture {
@@ -128,9 +128,51 @@ textarea {
 }
 
 .dark .container {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(36, 12, 12, 0.1);
+  color: white;
+  box-shadow: 0 0 20px rgb(219, 143, 143);
+}
+.dark .form-container {
+  background: rgba(36, 12, 12, 0.6);
+  color: white;
+  box-shadow: 0 0 20px rgb(219, 143, 143);
 }
 
 .dark a {
   color: plum;
 }
+
+.dark h1,
+.dark h2,
+.dark p {
+  color: rgb(219, 143, 143);
+}
+
+.dark input,
+.dark select,
+.dark textarea {
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  border: 1px solid rgb(150, 150, 150);
+}
+.dark input::placeholder,
+.dark select::placeholder,
+.dark textarea::placeholder {
+  color: rgb(200, 200, 200);
+}
+.dark button {
+  background: rgb(100, 29, 29);
+  border: 1px solid rgb(150, 50, 50);
+}
+.dark button:hover {
+  background: rgb(150, 50, 50);
+}
+.dark .theme-button {
+  background: white;
+  color: black;
+}
+.dark .theme-button:hover {
+  background: black;
+  color: white;
+}
+ 
