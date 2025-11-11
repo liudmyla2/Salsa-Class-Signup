@@ -154,6 +154,10 @@ textarea {
   color: rgb(219, 143, 143);
 }
 
+.dark img {
+  box-shadow: 0 0 7px rgb(219, 143, 143);
+}
+
 .dark input,
 .dark select,
 .dark textarea {
