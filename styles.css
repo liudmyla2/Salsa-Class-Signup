@@ -53,7 +53,6 @@ a {
 .container {
   max-width: 600px;
   margin: 20px auto;
-  background: white;
   padding: 20px;
   border-radius: 10px;
   background: rgba(255, 255, 255, 0.6);
@@ -62,7 +61,6 @@ a {
 .form-container {
   max-width: 600px;
   margin: 20px auto 100px auto;
-  background: white;
   padding: 20px;
   border-radius: 10px;
   background: rgba(255, 255, 255, 0.5);
@@ -162,15 +160,17 @@ textarea {
 .dark select,
 .dark textarea {
   background: rgba(255, 255, 255, 0.1);
-  color: white;
+  color: rgb(200, 200, 200);
   border: 1px solid rgb(150, 150, 150);
   box-shadow: 0 0 5px rgb(219, 143, 143);
 }
+
 
 .dark .select-variant {
   background: rgba(255, 255, 255, 0.1);
   color: black;
 }
+
 
 .dark input::placeholder,
 .dark select::placeholder,
